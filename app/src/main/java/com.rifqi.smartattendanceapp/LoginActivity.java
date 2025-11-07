@@ -1,4 +1,4 @@
-package com.dito.smartattendanceapp;
+package com.rifqi.smartattendanceapp;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -32,7 +32,7 @@ public class LoginActivity extends AppCompatActivity {
                 String user = etUsername.getText().toString();
                 String pass = etPassword.getText().toString();
 
-                if (user.equals("dito") && pass.equals("12345")) {
+                if (user.equals("rifqi") && pass.equals("12345")) {
                     Intent intent = new Intent(LoginActivity.this, DashboardActivity.class);
                     startActivity(intent);
                     finish();

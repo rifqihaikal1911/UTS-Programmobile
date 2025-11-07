@@ -1,4 +1,4 @@
-package com.dito.smartattendanceapp;
+package com.rifqi.smartattendanceapp;
 
 import android.os.Bundle;
 import android.util.Log;
